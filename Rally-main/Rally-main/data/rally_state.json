@@ -1,0 +1,360 @@
+{
+  "equipos": [
+    {
+      "equipo_id": "EQ-26",
+      "nombre": "Los crispi",
+      "password": "rally2026",
+      "integrantes": [
+        "Pepito",
+        "Lopez",
+        "Roquelio"
+      ],
+      "avatar": "🤖",
+      "ruta_id": "A",
+      "ruta_asignada": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "estacion_actual_index": 2,
+      "puntaje_total": 170,
+      "tiempo_acumulado_segundos": 40,
+      "rally_iniciado": true,
+      "insignias": [
+        "rayo_binario"
+      ],
+      "bloc_notas": {
+        "lecturaE3": "",
+        "calculoModulo": "",
+        "calculoDivision": "",
+        "notasLibres": ""
+      },
+      "en_estacion_actual": false,
+      "auth_qr_secret": "RALLY-TEAM-PASS-A-26-497",
+      "hora_inicio_rally": "2026-10-07T22:34:01.484Z"
+    },
+    {
+      "equipo_id": "EQ-02",
+      "nombre": "Equipo Alpha",
+      "password": "rally2026",
+      "integrantes": [
+        "Carlos",
+        "Ana"
+      ],
+      "avatar": "🚀",
+      "ruta_id": "B",
+      "ruta_asignada": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E1"
+      ],
+      "estacion_actual_index": 0,
+      "puntaje_total": 0,
+      "tiempo_acumulado_segundos": 0,
+      "rally_iniciado": false,
+      "insignias": [],
+      "bloc_notas": {
+        "lecturaE3": "",
+        "calculoModulo": "",
+        "calculoDivision": "",
+        "notasLibres": ""
+      },
+      "en_estacion_actual": false,
+      "auth_qr_secret": "RALLY-TEAM-PASS-B-02"
+    }
+  ],
+  "registros": [
+    {
+      "registro_id": "REG-740558",
+      "equipo_id": "EQ-26",
+      "estacion_id": "E1",
+      "hora_llegada": "2026-10-07T22:39:00.559Z",
+      "hora_salida": "2026-10-07T22:39:23.451Z",
+      "intentos_usados": 2,
+      "puntaje_obtenido": 70,
+      "dato_capturado": "Carry=1, Sum=0",
+      "monitor_id": "MON-E1",
+      "tiempo_estacion_segundos": 23,
+      "estado": "aprobado"
+    },
+    {
+      "registro_id": "REG-897439",
+      "equipo_id": "EQ-26",
+      "estacion_id": "E2",
+      "hora_llegada": "2026-10-07T22:41:37.439Z",
+      "hora_salida": "2026-10-07T22:41:54.754Z",
+      "intentos_usados": 1,
+      "puntaje_obtenido": 100,
+      "dato_capturado": "ADC=1023",
+      "monitor_id": "MON-E2",
+      "tiempo_estacion_segundos": 17,
+      "estado": "aprobado"
+    }
+  ],
+  "passesEquipos": [
+    {
+      "pass_id": "PASS-01",
+      "token": "RALLY-TEAM-PASS-A-01",
+      "equipo_id_asignado": "EQ-01",
+      "ruta_id": "A",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-02",
+      "token": "RALLY-TEAM-PASS-B-02",
+      "equipo_id_asignado": "EQ-02",
+      "ruta_id": "B",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": true,
+      "nombre_equipo_creado": "Equipo Alpha"
+    },
+    {
+      "pass_id": "PASS-03",
+      "token": "RALLY-TEAM-PASS-C-03",
+      "equipo_id_asignado": "EQ-03",
+      "ruta_id": "C",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-04",
+      "token": "RALLY-TEAM-PASS-D-04",
+      "equipo_id_asignado": "EQ-04",
+      "ruta_id": "D",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-05",
+      "token": "RALLY-TEAM-PASS-E-05",
+      "equipo_id_asignado": "EQ-05",
+      "ruta_id": "E",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-06",
+      "token": "RALLY-TEAM-PASS-A-06",
+      "equipo_id_asignado": "EQ-06",
+      "ruta_id": "A",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-07",
+      "token": "RALLY-TEAM-PASS-B-07",
+      "equipo_id_asignado": "EQ-07",
+      "ruta_id": "B",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-08",
+      "token": "RALLY-TEAM-PASS-C-08",
+      "equipo_id_asignado": "EQ-08",
+      "ruta_id": "C",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-09",
+      "token": "RALLY-TEAM-PASS-D-09",
+      "equipo_id_asignado": "EQ-09",
+      "ruta_id": "D",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-10",
+      "token": "RALLY-TEAM-PASS-E-10",
+      "equipo_id_asignado": "EQ-10",
+      "ruta_id": "E",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-11",
+      "token": "RALLY-TEAM-PASS-A-11",
+      "equipo_id_asignado": "EQ-11",
+      "ruta_id": "A",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-12",
+      "token": "RALLY-TEAM-PASS-B-12",
+      "equipo_id_asignado": "EQ-12",
+      "ruta_id": "B",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-13",
+      "token": "RALLY-TEAM-PASS-C-13",
+      "equipo_id_asignado": "EQ-13",
+      "ruta_id": "C",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-14",
+      "token": "RALLY-TEAM-PASS-D-14",
+      "equipo_id_asignado": "EQ-14",
+      "ruta_id": "D",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-15",
+      "token": "RALLY-TEAM-PASS-E-15",
+      "equipo_id_asignado": "EQ-15",
+      "ruta_id": "E",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-16",
+      "token": "RALLY-TEAM-PASS-A-16",
+      "equipo_id_asignado": "EQ-16",
+      "ruta_id": "A",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-17",
+      "token": "RALLY-TEAM-PASS-B-17",
+      "equipo_id_asignado": "EQ-17",
+      "ruta_id": "B",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-18",
+      "token": "RALLY-TEAM-PASS-C-18",
+      "equipo_id_asignado": "EQ-18",
+      "ruta_id": "C",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-19",
+      "token": "RALLY-TEAM-PASS-D-19",
+      "equipo_id_asignado": "EQ-19",
+      "ruta_id": "D",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-20",
+      "token": "RALLY-TEAM-PASS-E-20",
+      "equipo_id_asignado": "EQ-20",
+      "ruta_id": "E",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-21",
+      "token": "RALLY-TEAM-PASS-A-21",
+      "equipo_id_asignado": "EQ-21",
+      "ruta_id": "A",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-22",
+      "token": "RALLY-TEAM-PASS-B-22",
+      "equipo_id_asignado": "EQ-22",
+      "ruta_id": "B",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-23",
+      "token": "RALLY-TEAM-PASS-C-23",
+      "equipo_id_asignado": "EQ-23",
+      "ruta_id": "C",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-24",
+      "token": "RALLY-TEAM-PASS-D-24",
+      "equipo_id_asignado": "EQ-24",
+      "ruta_id": "D",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-25",
+      "token": "RALLY-TEAM-PASS-E-25",
+      "equipo_id_asignado": "EQ-25",
+      "ruta_id": "E",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "utilizado": false
+    },
+    {
+      "pass_id": "PASS-26",
+      "token": "RALLY-TEAM-PASS-A-26-497",
+      "equipo_id_asignado": "EQ-26",
+      "ruta_id": "A",
+      "creado_el": "2026-10-07T22:33:05.441Z",
+      "utilizado": true,
+      "nombre_equipo_creado": "Los crispi"
+    }
+  ],
+  "tokensMonitores": [
+    {
+      "estacion_id": "E1",
+      "token": "RALLY-AUTH-E1-9842",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "descripcion": "Pase QR Oficial — Monitor Estación 1 (Lógica Combinatoria)"
+    },
+    {
+      "estacion_id": "E2",
+      "token": "RALLY-AUTH-E2-5173",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "descripcion": "Pase QR Oficial — Monitor Estación 2 (Conversión A/D)"
+    },
+    {
+      "estacion_id": "E3",
+      "token": "RALLY-AUTH-E3-2649",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "descripcion": "Pase QR Oficial — Monitor Estación 3 (Sensores Físicos)"
+    },
+    {
+      "estacion_id": "E4",
+      "token": "RALLY-AUTH-E4-7381",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "descripcion": "Pase QR Oficial — Monitor Estación 4 (Matriz de Datos)"
+    },
+    {
+      "estacion_id": "E5",
+      "token": "RALLY-AUTH-E5-4095",
+      "creado_el": "2026-10-06T08:00:00.000Z",
+      "descripcion": "Pase QR Oficial — Monitor Estación 5 (Consola Central)"
+    }
+  ],
+  "broadcasts": [
+    {
+      "id": "b-init-1",
+      "titulo": "¡Rally de Datos 2026 en Marcha!",
+      "mensaje": "Bienvenido. Escanea el código QR de Logística para activar tu Pasaporte Oficial.",
+      "tipo": "info",
+      "fecha": "2026-10-06T20:33:32.429Z",
+      "activo": true
+    }
+  ],
+  "globalConfig": {
+    "rallyIniciado": true,
+    "horaInicio": "2026-10-06T20:33:32.429Z",
+    "tiempoLimiteMinutos": 90,
+    "pausado": false,
+    "distanciaMaximaPermitidaMetros": 35,
+    "passwordLogistica": "RALLYSANTOTO"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Pasaporte Digital — Rally de Datos 2026",
+  "description": "Sistema web oficial de gestión de pasaportes digitales, rotación dinámica de estaciones, cronometrado, pistas enigmáticas y validación para el Rally de Datos 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
